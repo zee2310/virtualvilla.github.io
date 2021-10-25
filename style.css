@@ -527,11 +527,11 @@ hr {
 }
 
 .wall-img {
+    z-index: -1;
     width: 175px;
 }
 
 .wall-img img {
-    z-index: -1;
     width: 175px;
     padding-top: 10px;
 }
