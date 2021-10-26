@@ -75,7 +75,7 @@ hr {
 
 .menu-bar {
     text-align: center;
-    background: radial-gradient(#dfdfdf, #ffd6d6);
+    background-color: #ffd6d6;
     float: initial;
 }
 
@@ -86,9 +86,11 @@ hr {
     margin-right: 5px;
     padding: 3px;
     color: black;
+    background-color: #ffd6d6;
 }
 
 .menu-bar ul li {
+    background-color: #ffd6d6;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -117,7 +119,7 @@ hr {
     display: block;
     position: absolute;
     margin-left: 15px;
-    background-color: (#dfdfdf, #ffd6d6);
+    background-color: #ffd6d6;
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul {
@@ -146,7 +148,7 @@ hr {
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover {
-    background-color: white;
+    background-color: radial-gradient(#dfdfdf, #ffd6d6);
 }
 
 .border-1 {
@@ -168,7 +170,6 @@ hr {
     padding: 2px;
     border-bottom: 1px;
     background: radial-gradient(#dfdfdf, #ffd6d6);
-    background: ;
     text-align: left;
 }
 
@@ -215,6 +216,10 @@ hr {
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    background-color: radial-gradient(#dfdfdf, #ffd6d6);
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover .inner-menu-1 {
     background-color: radial-gradient(#dfdfdf, #ffd6d6);
 }
 
@@ -303,6 +308,7 @@ hr {
 
 .inner-menu-1 {
     display: none;
+    background-color: radial-gradient(#dfdfdf, #ffd6d6);
 }
 
 .hover-me:hover .inner-menu-1 {
