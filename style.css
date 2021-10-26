@@ -21,20 +21,8 @@ body {
 }
 
 .col-2 {
-    flex-basis: 50%;
+    flex-basis: 75%;
     min-width: 300px;
-}
-
-.col-3 {
-    flex-basis: 25%;
-    min-width: 350px;
-    margin-bottom: 30px;
-}
-
-.col-5 {
-    flex-basis: 15%;
-    min-width: 250px;
-    margin-bottom: 30px;
 }
 
 .logo {
@@ -386,7 +374,6 @@ hr {
     }
     .menu-bar {
         width: 100%;
-        position: ;
         text-align: center;
         text-align: inherit;
     }
@@ -400,7 +387,6 @@ hr {
         padding-top: 25px;
         position: relative;
         width: 100%;
-        z-index: ;
     }
     .search-bar {
         text-align: center;
@@ -408,7 +394,8 @@ hr {
         position: relative;
     }
     .col-4 {
-        justify-content: space-between flex-basis: 25%;
+        justify-content: space-between;
+        flex-basis: 25%;
         padding: 10px;
         min-width: 135px;
         min-height: 180px;
@@ -540,6 +527,20 @@ hr {
 .wall-img img {
     width: 175px;
     padding-top: 10px;
+}
+
+
+/*-------------------------   ABOUT-US    ----------------------*/
+
+.col-2 {
+    flex-basis: 75%;
+    padding-left: 0;
+    margin-right: 50px;
+}
+
+.col-2 h3 {
+    text-align: left;
+    float: inline-start;
 }
 
 
