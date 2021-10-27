@@ -62,12 +62,15 @@ hr {
 }
 
 .menu-bar {
+    z-index: 2;
     text-align: center;
     background-color: radial-gradient(#dfdfdf, #ffd6d6);
     float: initial;
 }
 
 .menu-bar ul {
+    z-index: 2;
+    overflow: hidden;
     display: inline-flex;
     list-style: none;
     margin-left: 5px;
@@ -77,7 +80,14 @@ hr {
     background: radial-gradient(#dfdfdf, #ffd6d6);
 }
 
+.menu-bar ul .w {
+    padding-top: 2px;
+    margin-top: 2px;
+}
+
 .menu-bar ul li {
+    overflow: hidden;
+    z-index: 2;
     background: radial-gradient(#dfdfdf, #ffd6d6);
     margin-left: 5px;
     margin-right: 5px;
@@ -458,39 +468,6 @@ hr {
     margin-right: 300px;
 }
 
-.col-3 {
-    text-align: left;
-    padding-top: 40px;
-    margin-right: 75px;
-    float: right;
-    text-align: start;
-}
-
-.col-3 address {
-    padding-top: 50px;
-}
-
-.col-3 h2 {
-    text-align: left;
-    padding-bottom: 20px;
-}
-
-.col-3 a {
-    padding-top: 50px;
-    text-decoration: none;
-    margin-top: 50px;
-    color: black;
-}
-
-.col-3 ul {
-    list-style: none;
-}
-
-.col-3 ul li {
-    padding: 6px;
-    display: inline-block;
-}
-
 .size {
     padding-bottom: 905px;
 }
@@ -540,7 +517,7 @@ hr {
     padding-right: 10px;
     margin-right: 0px;
     position: sticky;
-    z-index: -1;
+    z-index: 1;
 }
 
 .col-2 h3 {
@@ -586,6 +563,40 @@ hr {
 .contact ul li {
     display: inline-block;
     list-style: none;
+}
+
+
+/*-------------------------   FORMAT TYPES       ----------------------*/
+
+.col-3 {
+    display: inline-block;
+    width: 470px;
+    height: 725px;
+    margin-top: 30px;
+    display: inline-table;
+}
+
+.col-3 h3 {
+    margin-bottom: 10px;
+}
+
+.col-3 p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.col-3 .team {
+    display: inline-block;
+}
+
+.f {
+    width: 300px;
+    height: 400px;
+}
+
+.f img {
+    margin-top: 100px;
+    width: 100%;
 }
 
 
