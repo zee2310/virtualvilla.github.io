@@ -511,20 +511,6 @@ hr {
 
 /*-------------------------   ABOUT-US    ----------------------*/
 
-.col-2 {
-    flex-basis: 75%;
-    min-width: 300px;
-    padding-right: 10px;
-    margin-right: 0px;
-    position: sticky;
-    z-index: 1;
-}
-
-.col-2 h3 {
-    text-align: left;
-    float: inline-start;
-}
-
 .team {
     text-align: center;
     padding: 0px;
@@ -581,8 +567,8 @@ hr {
 }
 
 .col-3 p {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .col-3 .team {
@@ -600,23 +586,14 @@ hr {
 }
 
 
-/*-------------------------   ALL PRODUCT PAGE ----------------------*/
-
-
-/* Float four columns side by side */
-
-.row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+/*-------------------------    PRODUCT PAGE ----------------------*/
 
 .col-4 {
     justify-content: space-between;
     flex-basis: 25%;
     padding: 10px;
-    min-width: 180px;
+    min-width: 135px;
+    min-height: 180px;
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
